@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+}
+
+.container {
+  background-color: #eee;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  margin: 50px auto;
+}
+.container > input {
+  padding: 5px 10px;
+  width: 100%;
+  border: none;
+}
+.container > .button {
+  display: flex;
+  justify-content: space-between;
+}
+.container > .button > span {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #018888;
+  color: white;
+  cursor: pointer;
+}
+.container .result {
+  background-color: white;
+  padding: 15px;
+  border: 1px dashed #018888;
+  text-align: center;
+}
+.container .result > span {
+  color: #018888;
+  font-weight: bold;
+}/*# sourceMappingURL=main.css.map */
